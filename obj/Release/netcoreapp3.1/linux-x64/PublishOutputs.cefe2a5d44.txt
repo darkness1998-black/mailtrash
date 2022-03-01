@@ -1,0 +1,9 @@
+C:\Users\admin\Desktop\C#\WinFormsApp1\WinFormsApp1\bin\Release\netcoreapp3.1\publish\WinFormsApp1
+C:\Users\admin\Desktop\C#\WinFormsApp1\WinFormsApp1\bin\Release\netcoreapp3.1\publish\WinFormsApp1.dll
+C:\Users\admin\Desktop\C#\WinFormsApp1\WinFormsApp1\bin\Release\netcoreapp3.1\publish\WinFormsApp1.deps.json
+C:\Users\admin\Desktop\C#\WinFormsApp1\WinFormsApp1\bin\Release\netcoreapp3.1\publish\WinFormsApp1.runtimeconfig.json
+C:\Users\admin\Desktop\C#\WinFormsApp1\WinFormsApp1\bin\Release\netcoreapp3.1\publish\WinFormsApp1.pdb
+C:\Users\admin\Desktop\C#\WinFormsApp1\WinFormsApp1\bin\Release\netcoreapp3.1\publish\MailKit.dll
+C:\Users\admin\Desktop\C#\WinFormsApp1\WinFormsApp1\bin\Release\netcoreapp3.1\publish\MimeKit.dll
+C:\Users\admin\Desktop\C#\WinFormsApp1\WinFormsApp1\bin\Release\netcoreapp3.1\publish\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\C#\WinFormsApp1\WinFormsApp1\bin\Release\netcoreapp3.1\publish\BouncyCastle.Crypto.dll
