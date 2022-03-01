@@ -14,3 +14,10 @@ C:\Users\admin\Desktop\mailtrash2\obj\Debug\net5.0\mailtrash2.dll
 C:\Users\admin\Desktop\mailtrash2\obj\Debug\net5.0\ref\mailtrash2.dll
 C:\Users\admin\Desktop\mailtrash2\obj\Debug\net5.0\mailtrash2.pdb
 C:\Users\admin\Desktop\mailtrash2\obj\Debug\net5.0\mailtrash2.genruntimeconfig.cache
+C:\Users\admin\Desktop\mailtrash2\bin\Debug\net5.0\MailKit.dll
+C:\Users\admin\Desktop\mailtrash2\bin\Debug\net5.0\MimeKit.dll
+C:\Users\admin\Desktop\mailtrash2\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\admin\Desktop\mailtrash2\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Users\admin\Desktop\mailtrash2\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\admin\Desktop\mailtrash2\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\admin\Desktop\mailtrash2\obj\Debug\net5.0\mailtrash2.csproj.CopyComplete
