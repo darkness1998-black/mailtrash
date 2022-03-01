@@ -1,0 +1,16 @@
+C:\Users\admin\Desktop\mailtrash2\bin\Debug\net5.0\mailtrash2.exe
+C:\Users\admin\Desktop\mailtrash2\bin\Debug\net5.0\mailtrash2.deps.json
+C:\Users\admin\Desktop\mailtrash2\bin\Debug\net5.0\mailtrash2.runtimeconfig.json
+C:\Users\admin\Desktop\mailtrash2\bin\Debug\net5.0\mailtrash2.runtimeconfig.dev.json
+C:\Users\admin\Desktop\mailtrash2\bin\Debug\net5.0\mailtrash2.dll
+C:\Users\admin\Desktop\mailtrash2\bin\Debug\net5.0\ref\mailtrash2.dll
+C:\Users\admin\Desktop\mailtrash2\bin\Debug\net5.0\mailtrash2.pdb
+C:\Users\admin\Desktop\mailtrash2\obj\Debug\net5.0\mailtrash2.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\mailtrash2\obj\Debug\net5.0\mailtrash2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\mailtrash2\obj\Debug\net5.0\mailtrash2.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\mailtrash2\obj\Debug\net5.0\mailtrash2.AssemblyInfo.cs
+C:\Users\admin\Desktop\mailtrash2\obj\Debug\net5.0\mailtrash2.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\mailtrash2\obj\Debug\net5.0\mailtrash2.dll
+C:\Users\admin\Desktop\mailtrash2\obj\Debug\net5.0\ref\mailtrash2.dll
+C:\Users\admin\Desktop\mailtrash2\obj\Debug\net5.0\mailtrash2.pdb
+C:\Users\admin\Desktop\mailtrash2\obj\Debug\net5.0\mailtrash2.genruntimeconfig.cache
