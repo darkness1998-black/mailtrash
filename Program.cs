@@ -213,11 +213,12 @@ namespace mailtrash2
 
                                         }
 
-                                        DateTime datetimeNow = DateTime.Now.AddMinutes(-15);
+                                        DateTime datetimeNow15 = DateTime.Now.AddMinutes(-15);
+                                        DateTime datetimeNow = DateTime.Now;
                                         DateTime datetimeMail = message.Date.DateTime;
                                         //1/5/2022 8:50:10 PM
                                         //3/3/2022 5:43:28 PM
-                                        if (datetimeMail <= datetimeNow)
+                                        if (datetimeMail <= datetimeNow && datetimeNow15 >= datetimeMail)
                                         {
                                             Console.WriteLine("Thu nay date: {0}", datetimeMail);
                                             folder.Store(i, new StoreFlagsRequest(StoreAction.Add, MessageFlags.Deleted) { Silent = true });
