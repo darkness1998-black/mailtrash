@@ -43,6 +43,26 @@ namespace mailtrash2
 
         public static void DoThisAllTheTime()
         {
+            string item1 = "";
+            var initFile = Path.Combine("config.init");
+            string[] initArrayString = null;
+            if (!File.Exists(initFile))
+            {
+                StringBuilder builder = new StringBuilder();
+                builder.AppendLine("15");
+                File.WriteAllText(initFile, builder.ToString());
+            }
+            initArrayString = File.ReadAllLines(initFile);
+            if (initArrayString.Length < 1)
+            {
+                Console.WriteLine("error in initFile ");
+                return;
+            }
+            foreach (var item in initArrayString)
+            {
+                item1 = item;
+            }
+            Console.WriteLine(item1);
             try
             {
                 using (var client = new ImapClient())
@@ -212,10 +232,10 @@ namespace mailtrash2
 
 
                                         }
-
-                                        DateTime datetimeNow15 = DateTime.Now.AddMinutes(-15);
+                                        string datetimeDK = string.Format("-{0}", item1);
+                                        DateTime datetimeNow15 = DateTime.Now.AddMinutes(Convert.ToDouble(datetimeDK));
                                         DateTime datetimeNow = DateTime.Now;
-                                        DateTime datetimeMail = message.Date.DateTime;
+                                        DateTime datetimeMail = message.Date.LocalDateTime;
                                         //1/5/2022 8:50:10 PM
                                         //3/3/2022 5:43:28 PM
                                         if (datetimeMail <= datetimeNow && datetimeNow15 >= datetimeMail)
