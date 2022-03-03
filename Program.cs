@@ -50,7 +50,7 @@ namespace mailtrash2
 
                     client.Connect("imap.yandex.ru", 993, true);
 
-                    client.Authenticate("admin@bobolala.xyz", "ecstipxneiopwyvx");
+                    client.Authenticate("admin@follow24h.net", "rW9A&aBVzqqmiA!");
                     Console.WriteLine(DateTime.Now);
                     while (true)
                     {
@@ -212,7 +212,17 @@ namespace mailtrash2
 
 
                                         }
-                                        folder.Store(i, new StoreFlagsRequest(StoreAction.Add, MessageFlags.Deleted) { Silent = true });
+
+                                        DateTime datetimeNow = DateTime.Now.AddMinutes(-15);
+                                        DateTime datetimeMail = message.Date.DateTime;
+                                        //1/5/2022 8:50:10 PM
+                                        //3/3/2022 5:43:28 PM
+                                        if (datetimeMail <= datetimeNow)
+                                        {
+                                            Console.WriteLine("Thu nay date: {0}", datetimeMail);
+                                            folder.Store(i, new StoreFlagsRequest(StoreAction.Add, MessageFlags.Deleted) { Silent = true });
+                                            Console.WriteLine("Da xoa thu date: {0}", datetimeMail);
+                                        }
                                     }
                                     else
                                     {
