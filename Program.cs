@@ -50,7 +50,7 @@ namespace mailtrash2
 
                     client.Connect("imap.yandex.ru", 993, true);
 
-                    client.Authenticate("admin@follow24h.net", "rW9A&aBVzqqmiA!");
+                    client.Authenticate("admin@bobolala.xyz", "ecstipxneiopwyvx");
                     Console.WriteLine(DateTime.Now);
                     while (true)
                     {
