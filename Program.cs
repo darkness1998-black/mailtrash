@@ -44,24 +44,10 @@ namespace mailtrash2
         public static void DoThisAllTheTime()
         {
             string item1 = "";
-            var initFile = Path.Combine("config.init");
-            string[] initArrayString = null;
-            if (!File.Exists(initFile))
-            {
-                StringBuilder builder = new StringBuilder();
-                builder.AppendLine("15");
-                File.WriteAllText(initFile, builder.ToString());
-            }
-            initArrayString = File.ReadAllLines(initFile);
-            if (initArrayString.Length < 1)
-            {
-                Console.WriteLine("error in initFile ");
-                return;
-            }
-            foreach (var item in initArrayString)
-            {
-                item1 = item;
-            }
+            string initFile = Path.Combine("config.init");
+            if (!File.Exists(initFile)) Console.WriteLine("does not exit file config.init");
+            string configInit = File.ReadAllText(initFile);
+            item1 = configInit;
             Console.WriteLine(item1);
             try
             {
